@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/map3">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:id="@+id/turnFlag"
+        android:src = "@drawable/germany"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100"
+        android:id="@+id/player2"
+        android:layout_alignTop="@+id/turnFlag"
+        android:layout_toEndOf="@+id/turnFlag"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/asoldier1"
+        android:src = "@drawable/asoldier"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:scaleType="fitXY"
+        android:id="@+id/csoldier1"
+        android:src = "@drawable/csoldier"
+        android:layout_above = "@+id/asoldier3"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:scaleType="fitXY"
+        android:id="@+id/csoldier2"
+        android:src="@drawable/csoldier"
+        android:layout_alignTop="@+id/asoldier3"
+        android:layout_alignStart="@+id/csoldier1" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:scaleType="fitXY"
+        android:id="@+id/csoldier3"
+        android:src="@drawable/csoldier"
+        android:layout_below="@+id/asoldier2"
+        android:layout_alignStart="@+id/csoldier1" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:id="@+id/asoldier2"
+        android:src="@drawable/asoldier"
+        android:layout_above="@+id/asoldier4"
+        android:layout_alignStart="@+id/asoldier4" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:id="@+id/asoldier3"
+        android:src="@drawable/asoldier"
+        android:layout_below="@+id/asoldier1"
+        android:layout_alignStart="@+id/asoldier5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:id="@+id/asoldier4"
+        android:src="@drawable/asoldier"
+        android:layout_above="@+id/csoldier1"
+        android:layout_alignStart="@+id/asoldier1" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:id="@+id/asoldier5"
+        android:src="@drawable/asoldier"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/asoldier3" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:scaleType="fitXY"
+        android:id="@+id/csoldier4"
+        android:src="@drawable/csoldier"
+        android:layout_alignTop="@+id/asoldier2"
+        android:layout_alignStart="@+id/csoldier3" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        android:scaleType="fitXY"
+        android:id="@+id/csoldier5"
+        android:src="@drawable/csoldier"
+        android:layout_below="@+id/asoldier3"
+        android:layout_alignStart="@+id/csoldier2" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:scaleType="fitXY"
+        android:id="@+id/aartillery"
+        android:src="@drawable/aartillery"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="fitXY"
+        android:id="@+id/cartillery"
+        android:src="@drawable/cartillery"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100"
+        android:id="@+id/player1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/turnFlag"
+        android:layout_toStartOf="@+id/turnFlag"
+        android:layout_marginEnd="33dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView4"
+        android:layout_below="@+id/turnFlag"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
